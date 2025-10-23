@@ -10,3 +10,5 @@ if (dogAge === 1) {
   } else {
     console.log("Please enter a number for the dog's age.");
   }
+
+  // I think it's best to leave the decimals as is rather than round up or down. If the user submitted their dog's age as 7.5 years old, the half year is likely important to them and I don't think they would want the answer to be rounded up or down.
